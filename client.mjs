@@ -630,3 +630,60 @@ alt.onServer('GunJ', (player)=> {
 //---//
 
 //Banks
+
+alt.onServer('BankA', (player)=> {
+	let bankA = new alt.PointBlip(-2968.3505859375, 480.93951416015625, 0);
+	bankA.sprite = 605;
+	bankA.name = 'Банк';
+	bankA.scale = 0.9;
+	bankA.shortRange = true;
+});
+
+alt.onServer('BankB', (player)=> {
+	let bankB = new alt.PointBlip(237.32652282714844, 217.60108947753906, 0);
+	bankB.sprite = 605;
+	bankB.name = 'Банк';
+	bankB.scale = 0.9;
+	bankB.shortRange = true;
+});
+
+alt.onServer('BankC', (player)=> {
+	let bankC = new alt.PointBlip(-109.38993072509766, 6464.12841796875, 0);
+	bankC.sprite = 605;
+	bankC.name = 'Банк';
+	bankC.scale = 0.9;
+	bankC.shortRange = true;
+});
+
+alt.onServer('BankD', (player)=> {
+	let bankD = new alt.PointBlip(1175.9718017578125, 2701.777587890625, 0);
+	bankD.sprite = 605;
+	bankD.name = 'Банк';
+	bankD.scale = 0.9;
+	bankD.shortRange = true;
+});
+
+alt.onServer('BankE', (player)=> {
+	let bankE = new alt.PointBlip(314.1906433105469, -272.4005126953125, 0);
+	bankE.sprite = 605;
+	bankE.name = 'Банк';
+	bankE.scale = 0.9;
+	bankE.shortRange = true;
+});
+
+alt.onServer('BankF', (player)=> {
+	let bankF = new alt.PointBlip(-1215.6314697265625, -324.4115295410156, 0);
+	bankF.sprite = 605;
+	bankF.name = 'Банк';
+	bankF.scale = 0.9;
+	bankF.shortRange = true;
+});
+
+alt.onServer('BankG', (player)=> {
+	let bankG = new alt.PointBlip(151.79042053222656, -1036.299560546875, 0);
+	bankG.sprite = 605;
+	bankG.name = 'Банк';
+	bankG.scale = 0.9;
+	bankG.shortRange = true;
+});
+
