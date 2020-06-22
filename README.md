@@ -15,7 +15,7 @@ In order for markers to be displayed in the game you must add a request to the s
 Example:
 
 alt.on('playerConnect', (player) => {
-const blip = ["MarketA","MarketB"];
+const blip = ["MarketA","MarketB",......];
 	for (let blips of blip) {
     alt.emitClient(player, blips);
   }
