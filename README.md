@@ -1,7 +1,7 @@
 # alt-V-minimap-blips
-================By Jersey==================
+================By Jersey====================
 Blips for GTA V server on alt:V Multiplayer
-===========================================
+=============================================
 Here are already collected certain points on the map for different blips.
 And in order not to waste valuable time searching for various coordinates, I have gathered here the main and additional points.
 You can also add something of your own.
