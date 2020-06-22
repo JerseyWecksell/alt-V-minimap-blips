@@ -686,4 +686,137 @@ alt.onServer('BankG', (player)=> {
 	bankG.scale = 0.9;
 	bankG.shortRange = true;
 });
+//---//
+
+//ATM - 14
+
+alt.onServer('AtmA', (player)=> {
+	let atmA = new alt.PointBlip(-391.66644287109375, 6044.6318359375, 0);
+	atmA.sprite = 500;
+	atmA.name = 'Банкомат';
+	atmA.scale = 0.8;
+	atmA.shortRange = true;
+	atmA.color = 43;
+});
+
+alt.onServer('AtmB', (player)=> {
+	let atmB = new alt.PointBlip(-285.136474609375, 6224.86083984375, 0);
+	atmB.sprite = 500;
+	atmB.name = 'Банкомат';
+	atmB.scale = 0.8;
+	atmB.shortRange = true;
+	atmB.color = 43;
+});
+
+alt.onServer('AtmC', (player)=> {
+	let atmC = new alt.PointBlip(-3241.36181640625, 997.0811767578125, 0);
+	atmC.sprite = 500;
+	atmC.name = 'Банкомат';
+	atmC.scale = 0.8;
+	atmC.shortRange = true;
+	atmC.color = 43;
+});
+
+alt.onServer('AtmD', (player)=> {
+	let atmD = new alt.PointBlip(176.7841339111328, 6637.4697265625, 0);
+	atmD.sprite = 500;
+	atmD.name = 'Банкомат';
+	atmD.scale = 0.8;
+	atmD.shortRange = true;
+	atmD.color = 43;
+});
+
+alt.onServer('AtmE', (player)=> {
+	let atmE = new alt.PointBlip(-2074.351318359375, -315.27349853515625, 0);
+	atmE.sprite = 500;
+	atmE.name = 'Банкомат';
+	atmE.scale = 0.8;
+	atmE.shortRange = true;
+	atmE.color = 43;
+});
+
+alt.onServer('AtmF', (player)=> {
+	let atmF = new alt.PointBlip(2560.5791015625, 351.8499450683594, 0);
+	atmF.sprite = 500;
+	atmF.name = 'Банкомат';
+	atmF.scale = 0.8;
+	atmF.shortRange = true;
+	atmF.color = 43;
+});
+
+alt.onServer('AtmG', (player)=> {
+	let atmG = new alt.PointBlip(1142.724365234375, -469.9620666503906, 0);
+	atmG.sprite = 500;
+	atmG.name = 'Банкомат';
+	atmG.scale = 0.8;
+	atmG.shortRange = true;
+	atmG.color = 43;
+});
+
+alt.onServer('AtmH', (player)=> {
+	let atmH = new alt.PointBlip(521.2113647460938, -158.6375274658203, 0);
+	atmH.sprite = 500;
+	atmH.name = 'Банкомат';
+	atmH.scale = 0.8;
+	atmH.shortRange = true;
+	atmH.color = 43;
+});
+
+alt.onServer('AtmI', (player)=> {
+	let atmI = new alt.PointBlip(-163.58604431152344, 239.45037841796875, 0);
+	atmI.sprite = 500;
+	atmI.name = 'Банкомат';
+	atmI.scale = 0.8;
+	atmI.shortRange = true;
+	atmI.color = 43;
+});
+
+alt.onServer('AtmJ', (player)=> {
+	let atmJ = new alt.PointBlip(-1317.0428466796875, -835.9744873046875, 0);
+	atmJ.sprite = 500;
+	atmJ.name = 'Банкомат';
+	atmJ.scale = 0.8;
+	atmJ.shortRange = true;
+	atmJ.color = 43;
+});
+
+alt.onServer('AtmK', (player)=> {
+	let atmK = new alt.PointBlip(-815.6793823242188, -1083.0745849609375, 0);
+	atmK.sprite = 500;
+	atmK.name = 'Банкомат';
+	atmK.scale = 0.8;
+	atmK.shortRange = true;
+	atmK.color = 43;
+});
+
+alt.onServer('AtmL', (player)=> {
+	let atmL = new alt.PointBlip(-864.2085571289062, -185.8977813720703, 0);
+	atmL.sprite = 500;
+	atmL.name = 'Банкомат';
+	atmL.scale = 0.8;
+	atmL.shortRange = true;
+	atmL.color = 43;
+});
+
+alt.onServer('AtmM', (player)=> {
+	let atmM = new alt.PointBlip(114.24769592285156, -777.9938354492188, 0);
+	atmM.sprite = 500;
+	atmM.name = 'Банкомат';
+	atmM.scale = 0.8;
+	atmM.shortRange = true;
+	atmM.color = 43;
+});
+
+alt.onServer('AtmN', (player)=> {
+	let atmN = new alt.PointBlip(287.3786926269531, -1256.7730712890625, 0);
+	atmN.sprite = 500;
+	atmN.name = 'Банкомат';
+	atmN.scale = 0.8;
+	atmN.shortRange = true;
+	atmN.color = 43;
+});
+
+//---//
+
+//Auto Shop 
 
