@@ -857,7 +857,7 @@ alt.onServer('AutspE', (player)=> {
 	autspE.sprite = 523;
 	autspE.name = 'Автосалон';
 	autspE.scale = 0.9;
-	autspA.shortRange = true;
+	autspE.shortRange = true;
 });
 
 //---//
