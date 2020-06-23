@@ -1000,4 +1000,104 @@ alt.onServer('BusA', (player)=> {
 
 //---//
 
-//Police
+//Police - 1
+
+alt.onServer('PoliceA', (player) =>{
+	let policeA = new alt.PointBlip(415.05877685546875, -979.7696533203125, 0);
+	policeA.sprite = 60;
+	policeA.name = 'LSPD';	
+	policeA.scale = 0.9;
+	policeA.shortRange = true;
+    policeA.color = 38;
+});
+
+//---//
+
+//Mafia - 4
+
+alt.onServer('MafiaRus', (player) =>{
+	let mafiaRus = new alt.PointBlip(-1524.8270263671875, 93.163818359375, 0);
+	mafiaRus.sprite = 84;
+	mafiaRus.name = 'Русская Мафия';	
+	mafiaRus.scale = 0.9;
+	mafiaRus.shortRange = true;
+});
+
+alt.onServer('MafiaArm', (player) =>{
+	let mafiaArm = new alt.PointBlip(-134.32400512695312, 977.9843139648438, 0);
+	mafiaArm.sprite = 84;
+	mafiaArm.name = 'Армянская Мафия';	
+	mafiaArm.scale = 0.9;
+	mafiaArm.shortRange = true;
+	mafiaArm.color = 7;
+});
+
+alt.onServer('MafiaMex', (player) =>{
+	let mafiaMex = new alt.PointBlip(1375.904541015625, 1146.2225341796875, 0);
+	mafiaMex.sprite = 84;
+	mafiaMex.name = 'Мексиканская Мафия';	
+	mafiaMex.scale = 0.9;
+	mafiaMex.shortRange = true;
+	mafiaMex.color = 52;
+});
+
+alt.onServer('MafiaItal', (player) =>{
+	let mafiaItal = new alt.PointBlip(-1883.5142822265625, 2080.7509765625, 0);
+	mafiaItal.sprite = 84;
+	mafiaItal.name = 'Итальянская Мафия';	
+	mafiaItal.scale = 0.9;
+	mafiaItal.shortRange = true;
+	mafiaItal.color = 51;
+});
+
+//---//
+
+//Bands - 5
+
+alt.onServer('BandA', (player) =>{
+	let bandA = new alt.PointBlip(86.19562530517578, -1931.269287109375, 0);
+	bandA.sprite = 437;
+	bandA.name = 'The Ballas Gang';	
+	bandA.scale = 0.9;
+	bandA.shortRange = true;
+	bandA.color = 27;
+});
+
+alt.onServer('BandB', (player) =>{
+	let bandB = new alt.PointBlip(495.6226806640625, -1506.9393310546875, 0);
+	bandB.sprite = 437;
+	bandB.name = 'The Bloods Gang';	
+	bandB.scale = 0.9;
+	bandB.shortRange = true;
+	bandB.color = 1;
+});
+
+alt.onServer('BandC', (player) =>{
+	let bandC = new alt.PointBlip(-187.66299438476562, -1636.9498291015625, 0);
+	bandC.sprite = 437;
+	bandC.name = 'The Families Gang';	
+	bandC.scale = 0.9;
+	bandC.shortRange = true;
+	bandC.color = 2;
+});
+
+alt.onServer('BandD', (player) =>{
+	let bandD = new alt.PointBlip(1421.1630859375, -1513.87744140625, 0);
+	bandD.sprite = 437;
+	bandD.name = 'The Vagos Gang';	
+	bandD.scale = 0.9;
+	bandD.shortRange = true;
+	bandD.color = 46;
+});
+
+alt.onServer('BandE', (player) =>{
+	let bandE = new alt.PointBlip(974.1224365234375, -118.63666534423828, 0);
+	bandE.sprite = 348;
+	bandE.name = 'The Lost MC';	
+	bandE.scale = 0.9;
+	bandE.shortRange = true;
+});
+
+//---//
+
+//
