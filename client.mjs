@@ -818,5 +818,137 @@ alt.onServer('AtmN', (player)=> {
 
 //---//
 
-//Auto Shop 
+//Auto Shop - 5
 
+alt.onServer('AutspA', (player)=> {
+	let autspA = new alt.PointBlip(-78.99559020996094, 65.767333984375, 0);
+	autspA.sprite = 523;
+	autspA.name = 'Автосалон';
+	autspA.scale = 0.9;
+	autspA.shortRange = true;
+});
+
+alt.onServer('AutspB', (player)=> {
+	let autspB = new alt.PointBlip(-804.2024536132812, -225.08685302734375, 0);
+	autspB.sprite = 523;
+	autspB.name = 'Автосалон';
+	autspB.scale = 0.9;
+	autspB.shortRange = true;
+});
+
+alt.onServer('AutspC', (player)=> {
+	let autspC = new alt.PointBlip(-62.41972351074219, -1101.1346435546875, 0);
+	autspC.sprite = 523;
+	autspC.name = 'Автосалон';
+	autspC.scale = 0.9;
+	autspC.shortRange = true;
+});
+
+alt.onServer('AutspD', (player)=> {
+	let autspD = new alt.PointBlip(-187.21946716308594, -1154.611083984375, 0);
+	autspD.sprite = 523;
+	autspD.name = 'Автосалон';
+	autspD.scale = 0.9;
+	autspD.shortRange = true;
+});
+
+alt.onServer('AutspE', (player)=> {
+	let autspE = new alt.PointBlip(-44.47377395629883, -1657.8460693359375, 0);
+	autspE.sprite = 523;
+	autspE.name = 'Автосалон';
+	autspE.scale = 0.9;
+	autspA.shortRange = true;
+});
+
+//---//
+
+//Moto Shop - 2
+
+alt.onServer('MotA', (player)=> {
+	let motA = new alt.PointBlip(264.2749938964844, -1152.2020263671875, 0);
+	motA.sprite = 522;
+	motA.name = 'Мотосалон';
+	motA.scale = 0.9;
+	motA.shortRange = true;
+});
+
+alt.onServer('MotB', (player)=> {
+	let motB = new alt.PointBlip(-944.459716796875, -1192.2462158203125, 0);
+	motB.sprite = 522;
+	motB.name = 'Мотосалон';
+	motB.scale = 0.9;
+	motB.shortRange = true;
+});
+
+//---//
+
+//Car market
+
+alt.onServer('AutmarkA', (player)=> {
+	let autmarkA = new alt.PointBlip(-1631.227294921875, -887.5659790039062, 0);
+	autmarkA.sprite = 227;
+	autmarkA.name = 'Авторынок';
+	autmarkA.scale = 0.9;
+	autmarkA.shortRange = true;
+	autmarkA.color = 9;
+});
+
+//---//
+
+//LS Custom
+
+alt.onServer('CustomA', (player)=> {
+	let customA = new alt.PointBlip(111.7618408203125, 6626.705078125, 0);
+	customA.sprite = 72;
+	customA.name = 'LS Custom';
+	customA.scale = 0.9;
+	customA.shortRange = true;
+});
+
+alt.onServer('CustomB', (player)=> {
+	let customB = new alt.PointBlip(1174.903076171875, 2642.408447265625, 0);
+	customB.sprite = 72;
+	customB.name = 'LS Custom';
+	customB.scale = 0.9;
+	customB.shortRange = true;
+});
+
+alt.onServer('CustomC', (player)=> {
+	let customC = new alt.PointBlip(-347.3607482910156, -137.52098083496094, 0);
+	customC.sprite = 72;
+	customC.name = 'LS Custom';
+	customC.scale = 0.9;
+	customC.shortRange = true;
+});
+
+alt.onServer('CustomD', (player)=> {
+	let customD = new alt.PointBlip(-33.36251449584961, -1088.1243896484375, 0);
+	customD.sprite = 72;
+	customD.name = 'LS Custom';
+	customD.scale = 0.9;
+	customD.shortRange = true;
+});
+
+alt.onServer('CustomE', (player)=> {
+	let customE = new alt.PointBlip(-206.3124237060547, -1320.8734130859375, 0);
+	customE.sprite = 72;
+	customE.name = 'LS Custom';
+	customE.scale = 0.9;
+	customE.shortRange = true;
+});
+
+alt.onServer('CustomF', (player)=> {
+	let customF = new alt.PointBlip(727.8046264648438, -1088.3831787109375, 0);
+	customF.sprite = 72;
+	customF.name = 'LS Custom';
+	customF.scale = 0.9;
+	customF.shortRange = true;
+});
+
+alt.onServer('CustomG', (player)=> {
+	let customG = new alt.PointBlip(-1149.9027099609375, -1995.3834228515625, 0);
+	customG.sprite = 72;
+	customG.name = 'LS Custom';
+	customG.scale = 0.9;
+	customG.shortRange = true;
+});
