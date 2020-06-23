@@ -952,3 +952,52 @@ alt.onServer('CustomG', (player)=> {
 	customG.scale = 0.9;
 	customG.shortRange = true;
 });
+
+//---//
+
+//Car Wash
+
+alt.onServer('WashA', (player)=> {
+	let washA = new alt.PointBlip(31.09412384033203, -1391.5450439453125, 0);
+	washA.sprite = 100;
+	washA.name = 'Автомойка';
+	washA.scale = 0.9;
+	washA.shortRange = true;
+});
+
+alt.onServer('WashB', (player)=> {
+	let washB = new alt.PointBlip(170.0830535888672, -1719.6798095703125, 0);
+	washB.sprite = 100;
+	washB.name = 'Автомойка';
+	washB.scale = 0.9;
+	washB.shortRange = true;
+});
+
+//---//
+
+//Taxi
+
+alt.onServer('TaxiA', (player)=> {
+	let taxiA = new alt.PointBlip(911.4644165039062, -177.89352416992188, 0);
+	taxiA.sprite = 198;
+	taxiA.name = 'Таксопарк';
+	taxiA.scale = 0.9;
+	taxiA.shortRange = true;
+	taxiA.color = 33;
+});
+
+//---//
+
+//Bus park
+
+alt.onServer('BusA', (player)=> {
+	let busA = new alt.PointBlip(429.6456604003906, -633.1942749023438, 0);
+	busA.sprite = 513;
+	busA.name = 'Автобусный парк';
+	busA.scale = 0.9;
+	busA.shortRange = true;
+});
+
+//---//
+
+//Police
