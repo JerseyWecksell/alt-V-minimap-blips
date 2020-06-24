@@ -1218,3 +1218,90 @@ alt.onServer('TrackA', (player) =>{
 	trackA.shortRange = true;
 });
 
+//---//
+
+//Battle for resources
+
+alt.onServer('BattleA', (player) =>{
+	let battleA = new alt.PointBlip(-40.840293884277344, -2624.496337890625, 0);
+	battleA.sprite = 478;
+	battleA.name = 'Битва за ресурсы';	
+	battleA.scale = 0.9;
+	battleA.shortRange = true;
+});
+
+//---//
+
+//Sawmill
+
+alt.onServer('SawA', (player) =>{
+	let sawA = new alt.PointBlip(-573.0530395507812, 5326.564453125, 0);
+	sawA.sprite = 478;
+	sawA.name = 'Лесопилка';	
+	sawA.scale = 0.9;
+	sawA.shortRange = true;
+	sawA.color = 77;
+});
+
+//---//
+
+//business centre
+
+alt.onServer('CenA', (player) =>{
+	let cenA = new alt.PointBlip(-115.71086883544922, -605.644775390625, 0);
+	cenA.sprite = 605;
+	cenA.name = 'Бизнес Центер';	
+	cenA.scale = 0.9;
+	cenA.shortRange = true;
+	cenA.color = 77;
+});
+
+//---//
+
+//Army
+alt.onServer('ArmyA', (player) =>{
+	let armyA = new alt.PointBlip(-2146.45361328125, 3122.0185546875, 0);
+	armyA.sprite = 16;
+	armyA.name = 'Army';	
+	armyA.scale = 0.9;
+	armyA.shortRange = true;
+});
+
+//---//
+
+//casino
+
+//Army
+alt.onServer('CasA', (player) =>{
+	let casA = new alt.PointBlip(924.0734252929688, 48.510990142822266, 0);
+	casA.sprite = 642;
+	casA.name = 'Casino';	
+	casA.scale = 0.9;
+	casA.shortRange = true;
+	casA.color = 27;
+});
+
+//---//
+
+//Auto School
+
+alt.onServer('SA', (player) =>{
+	let sA = new alt.PointBlip(-723.122314453125, -1296.53857421875, 0);
+	sA.sprite = 545;
+	sA.name = 'Автошкола';	
+	sA.scale = 0.9;
+	sA.shortRange = true;
+	sA.color = 26;
+});
+
+//---//
+
+//airport
+
+alt.onServer('AirA', (player) =>{
+	let AirA = new alt.PointBlip(-1042.2791748046875, -2745.16357421875, 0);
+	AirA.sprite = 307;
+	AirA.name = 'Аэропорт';	
+	AirA.scale = 0.9;
+	AirA.shortRange = true;
+});
