@@ -1164,7 +1164,7 @@ alt.onServer('NewsA', (player) =>{
 
 alt.onServer('CargA', (player) =>{
 	let cargA = new alt.PointBlip(179.45877075195312, 6403.76220703125, 0);
-	cargA.sprite = 579;
+	cargA.sprite = 479;
 	cargA.name = 'Прицепы';	
 	cargA.scale = 0.9;
 	cargA.shortRange = true;
