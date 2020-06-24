@@ -1100,4 +1100,121 @@ alt.onServer('BandE', (player) =>{
 
 //---//
 
-//
+//Klubs - 4
+
+alt.onServer('KlubA', (player) =>{
+	let klubA = new alt.PointBlip(1988.352783203125, 3053.72021484375, 0);
+	klubA.sprite = 226;
+	klubA.name = 'Байкерский клуб';	
+	klubA.scale = 0.9;
+	klubA.shortRange = true;
+});
+
+alt.onServer('KlubB', (player) =>{
+	let klubB = new alt.PointBlip(130.0187530517578, -1306.8140869140625, 0);
+	klubB.sprite = 93;
+	klubB.name = 'Vanilla Unicorn';	
+	klubB.scale = 0.9;
+	klubB.shortRange = true;
+});
+
+alt.onServer('KlubC', (player) =>{
+	let klubC = new alt.PointBlip(-1391.6474609375, -581.63427734375, 0);
+	klubC.sprite = 121;
+	klubC.name = 'Bahama West Mamas';	
+	klubC.scale = 0.9;
+	klubC.shortRange = true;
+});
+
+alt.onServer('KlubD', (player) =>{
+	let klubD = new alt.PointBlip(-552.1333618164062, 301.3187255859375, 0);
+	klubD.sprite = 93;
+	klubD.name = 'Russia Club';	
+	klubD.scale = 0.9;
+	klubD.shortRange = true;
+});
+
+//---//
+
+//Mechanics
+
+alt.onServer('MechA', (player) =>{
+	let mechA = new alt.PointBlip(481.32940673828125, -1317.401611328125, 0);
+	mechA.sprite = 544;
+	mechA.name = 'Автомеханики';	
+	mechA.scale = 0.9;
+	mechA.shortRange = true;
+});
+
+//---//
+
+//weazle news
+
+alt.onServer('NewsA', (player) =>{
+	let newsA = new alt.PointBlip(-1039.2457275390625, -216.26571655273438, 0);
+	newsA.sprite = 590;
+	newsA.name = 'Weazle News';	
+	newsA.scale = 0.9;
+	newsA.shortRange = true;
+});
+
+//---//
+
+//Trailer cargo
+
+alt.onServer('CargA', (player) =>{
+	let cargA = new alt.PointBlip(179.45877075195312, 6403.76220703125, 0);
+	cargA.sprite = 579;
+	cargA.name = 'Прицепы';	
+	cargA.scale = 0.9;
+	cargA.shortRange = true;
+});
+
+//---//
+
+//Zona
+
+alt.onServer('ZonaA', (player) =>{
+	let zonaA = new alt.PointBlip(1667.7664794921875, 2606.76708984375, 0);
+	zonaA.sprite = 188;
+	zonaA.name = 'Тюрьма';	
+	zonaA.scale = 0.9;
+	zonaA.shortRange = true;
+});
+
+//---//
+
+//Meria
+
+alt.onServer('MerA', (player) =>{
+	let merA = new alt.PointBlip(-544.0855102539062, -205.09579467773438, 0);
+	merA.sprite = 420;
+	merA.name = 'Мэрия';	
+	merA.scale = 0.9;
+	merA.shortRange = true;
+});
+
+//---//
+
+//Purchase of materials
+
+alt.onServer('MatA', (player) =>{
+	let matA = new alt.PointBlip(483.7624206542969, -1390.2757568359375, 0);
+	matA.sprite = 467;
+	matA.name = 'Скупка материалов';	
+	matA.scale = 0.9;
+	matA.shortRange = true;
+});
+
+//---//
+
+//truckers
+
+alt.onServer('TrackA', (player) =>{
+	let trackA = new alt.PointBlip(-1089.98388671875, -2172.3662109375, 0);
+	trackA.sprite = 67;
+	trackA.name = 'Дальнобойщики';	
+	trackA.scale = 0.9;
+	trackA.shortRange = true;
+});
+
