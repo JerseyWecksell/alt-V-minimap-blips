@@ -1305,3 +1305,15 @@ alt.onServer('AirA', (player) =>{
 	AirA.scale = 0.9;
 	AirA.shortRange = true;
 });
+
+//---//
+
+//fbi
+
+alt.onServer('FbiA', (player) =>{
+	let fbiA = new alt.PointBlip(134.58297729492188, -749.3389892578125, 0);
+	fbiA.sprite = 88;
+	fbiA.name = 'FBI';	
+	fbiA.scale = 0.9;
+	fbiA.shortRange = true;
+});
