@@ -151,7 +151,7 @@ alt.onServer('MarketU', (player)=> {
 
 //---//
 
-//Refills - 18
+//Refills - 22
 
 alt.onServer('RefillA', (player)=> {
 	let refillA = new alt.PointBlip(-2552.3681640625, 2321.4912109375, 0);
@@ -724,7 +724,7 @@ alt.onServer('BankG', (player)=> {
 });
 //---//
 
-//ATM - 14
+//ATM - 19
 
 alt.onServer('AtmA', (player)=> {
 	let atmA = new alt.PointBlip(-391.66644287109375, 6044.6318359375, 0);
@@ -850,6 +850,51 @@ alt.onServer('AtmN', (player)=> {
 	atmN.scale = 0.8;
 	atmN.shortRange = true;
 	atmN.color = 43;
+});
+
+alt.onServer('AtmO', (player)=> {
+	let atmO = new alt.PointBlip(-3044.18896484375, 594.5670166015625, 0);
+	atmO.sprite = 500;
+	atmO.name = 'Банкомат';
+	atmO.scale = 0.8;
+	atmO.shortRange = true;
+	atmO.color = 43;
+});
+
+alt.onServer('AtmP', (player)=> {
+	let atmP = new alt.PointBlip(-2957.8154296875,  488.3736267089844, 0);
+	atmP.sprite = 500;
+	atmP.name = 'Банкомат';
+	atmP.scale = 0.8;
+	atmP.shortRange = true;
+	atmP.color = 43;
+});
+
+alt.onServer('AtmQ', (player)=> {
+	let atmQ = new alt.PointBlip(-2975.103271484375, 380.24176025390625, 0);
+	atmQ.sprite = 500;
+	atmQ.name = 'Банкомат';
+	atmQ.scale = 0.8;
+	atmQ.shortRange = true;
+	atmQ.color = 43;
+});
+
+alt.onServer('AtmR', (player)=> {
+	let atmR = new alt.PointBlip(-1570.7340087890625, -547.041748046875, 0);
+	atmR.sprite = 500;
+	atmR.name = 'Банкомат';
+	atmR.scale = 0.8;
+	atmR.shortRange = true;
+	atmR.color = 43;
+});
+
+alt.onServer('AtmS', (player)=> {
+	let atmS = new alt.PointBlip(-526.4044189453125, -1222.984619140625, 0);
+	atmS.sprite = 500;
+	atmS.name = 'Банкомат';
+	atmS.scale = 0.8;
+	atmS.shortRange = true;
+	atmS.color = 43;
 });
 
 //---//
