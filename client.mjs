@@ -315,6 +315,42 @@ alt.onServer('RefillS', (player)=> {
 	refillS.color = 1;
 });
 
+alt.onServer('RefillT', (player)=> {
+	let refillT = new alt.PointBlip(1685.96044921875, 4929.982421875, 0);
+	refillT.sprite = 361;
+	refillT.name = 'Заправка';
+	refillT.scale = 0.7;
+	refillT.shortRange = true;
+	refillT.color = 1;
+});
+
+alt.onServer('RefillU', (player)=> {
+	let refillU = new alt.PointBlip(174.09231567382812, -1562.887939453125, 0);
+	refillU.sprite = 361;
+	refillU.name = 'Заправка';
+	refillU.scale = 0.7;
+	refillU.shortRange = true;
+	refillU.color = 1;
+});
+
+alt.onServer('RefillV', (player)=> {
+	let refillV = new alt.PointBlip(-528.6329956054688, -1206.989013671875,  0);
+	refillV.sprite = 361;
+	refillV.name = 'Заправка';
+	refillV.scale = 0.7;
+	refillV.shortRange = true;
+	refillV.color = 1;
+});
+
+alt.onServer('RefillW', (player)=> {
+	let refillW = new alt.PointBlip(-728.5186767578125, -934.1670532226562, 0);
+	refillW.sprite = 361;
+	refillW.name = 'Заправка';
+	refillW.scale = 0.7;
+	refillW.shortRange = true;
+	refillW.color = 1;
+});
+
 //---//
 
 //Clothing store - 15
