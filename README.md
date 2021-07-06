@@ -7,8 +7,8 @@ And in order not to waste valuable time searching for various coordinates, I hav
 You can also add something of your own.
 
 Additional resources that I used:
- https://wiki.altv.mp/HUD:Blips
- https://altmp.github.io/altv-typings/classes/_alt_client_.blip.html#route
+https://wiki.altv.mp/wiki/GTA:Blips
+https://altmp.github.io/altv-typings/classes/_alt_client_.blip.html#route
 
 In order for markers to be displayed in the game you must add a request to the server side!!
 
